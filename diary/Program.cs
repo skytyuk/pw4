@@ -78,7 +78,7 @@
                 notes_switch();
                 Console.Clear();
                 Console.SetCursorPosition(0, 0);
-                Console.WriteLine("Выбрана дата " + date.ToShortDateString() + " " + day + " " + cursor);
+                Console.WriteLine("Выбрана дата " + date.ToShortDateString());
                 Console.SetCursorPosition(0, cursor);
                 Console.WriteLine("->");
             }
